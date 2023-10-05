@@ -8,6 +8,8 @@ public class GenerateRandom2 {
     guess(randomNum);
 }
 
+
+
 public static void main(String[]args){
     getRandom();
 }
