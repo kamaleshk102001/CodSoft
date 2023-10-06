@@ -22,12 +22,12 @@ public class StudentGradeCalcul {
             System.out.println("Enter Subject");
              sub=s.nextLine();
             System.out.println(" ");
-            System.out.println(sub);
+            //System.out.println(sub);
             
             System.out.println(" ");
             mark[i]=s.nextInt();
             System.out.println(" ");
-            System.out.println(mark[i]);
+            //System.out.println(mark[i]);
 
             s.nextLine();
         }
@@ -63,9 +63,9 @@ public class StudentGradeCalcul {
         }
         
         System.out.println(" ");
-        System.out.println("totalmarks is"+" "+totalmarks+"and the average is"+" "+avg+" ");
+        System.out.println("totalmarks is"+" "+totalmarks+" "+"and the average is"+" "+avg+" "+"% ");
         
         System.out.println(" ");
-        System.out.println("Your grade is"+grade);
+        System.out.println("Your grade is"+" "+grade);
     }
 }
