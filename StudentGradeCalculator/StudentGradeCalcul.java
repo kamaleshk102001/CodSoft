@@ -9,6 +9,11 @@ public class StudentGradeCalcul {
     private static void generateMarks() {
         Scanner s=new Scanner(System.in);
 
+        System.out.println("Enter Name");
+        System.out.println(" ");
+
+        System.out.println("Enter Number of Subjects");
+
         int n=s.nextInt();
 
         s.nextLine();
@@ -46,6 +51,7 @@ public class StudentGradeCalcul {
 
     private static void findgrade(int totalmarks,int  avg) {
         String grade;
+        Scanner a=new Scanner(System.in);
         if(avg>=90){
             grade="O. You are passed with distinction";
         }
@@ -66,6 +72,20 @@ public class StudentGradeCalcul {
         System.out.println("totalmarks is"+" "+totalmarks+" "+"and the average is"+" "+avg+" "+"% ");
         
         System.out.println(" ");
-        System.out.println("Your grade is"+" "+grade);
+        System.out.println("Your grade is"+" "+""+grade+"");
+
+        System.out.println(" ");
+
+        System.out.println("if you know another student grade enter 1");
+        System.out.println("if you want to exit enter 0");
+
+        int guess=a.nextInt();
+
+        System.out.println(" ");
+
+        if(guess==1)
+           generateMarks();
+        else
+           return;
     }
 }
