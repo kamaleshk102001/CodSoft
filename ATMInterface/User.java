@@ -92,7 +92,7 @@ public void printreceipt(){
         main.name=s.next();
 
         System.out.println(" ");
-        System.out.println("Welcome"+main.name);
+        System.out.println("Welcome"+" "+main.name);
 
         while(true){
             System.out.println(" ");
